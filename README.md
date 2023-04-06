@@ -17,7 +17,21 @@ where
 
 ## Diff between files - with code
     diff -bur ./classes/ ~/bkp/classes/
+ 
+where
+
+`b` flag means ignoring whitespace
+
+`u` flag means a unified context (3 lines before and after)
+
+`r` flag means recursive
 
 ## Diff between files - only filenames
     diff -qr ./classes/ ~/bkp/classes/
+ 
+where
+
+`q` flag means only filenames
+
+`r` flag means recursive
 
