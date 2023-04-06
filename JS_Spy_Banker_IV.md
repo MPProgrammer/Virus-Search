@@ -1,7 +1,7 @@
 ## Info:
 - change payment form
 - lock login to admin panel
-- change file content without modify time
+- change file content without modify time (https://ostechnix.com/how-to-edit-a-file-without-changing-its-timestamps-in-linux/)
 - add file with random_name.jpg in ./img/ catalog
 - install by posting on ./b2b.php
 
