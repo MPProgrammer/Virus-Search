@@ -2,6 +2,8 @@
 
     find ./ -mtime -30 -type f -printf "%TY-%Tm-%Td %TH:%TM %p\n" | sort -r | head -n 50
 
+or
+
     find . -mtime -30 -type f ! -path "./var/cache/*" ! -path "./var/logs/*" ! -path "./cache/*" ! -path "./img/*" -printf "%TY-%Tm-%Td %TH:%TM %p\n" | sort -r | head -n 50
     
 where
