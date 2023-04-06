@@ -14,6 +14,8 @@ where
 
 `head -n 50` - show only 50 files
 
+<br />
+<br />
 
 ## Diff between files - with code
     diff -bur ./classes/ ~/bkp/classes/
@@ -25,6 +27,9 @@ where
 `u` flag means a unified context (3 lines before and after)
 
 `r` flag means recursive
+
+<br />
+<br />
 
 ## Diff between files - only filenames
     diff -qr ./classes/ ~/bkp/classes/
