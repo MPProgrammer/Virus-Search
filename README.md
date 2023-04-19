@@ -10,7 +10,9 @@ where
 
 `-type f` - only files
 
-`-mtime -30` - last 30 days
+`-mtime -30` - modification time in 30 days
+
+`-ctime -30` - creation time in 30 days
 
 `! -path "./var/cache/*" ...` - exclude ./var/cache/* directory
 
@@ -42,3 +44,12 @@ where
 
 `r` flag means recursive
 
+<br />
+<br />
+
+
+## After fix
+
+1. Check if there is a new admin and remove it
+2. Change passwords for admins
+3. Add htpasswd to admin directory
